@@ -20,7 +20,7 @@ resource "aws_autoscaling_group" "swiggy-app-asg" {
 # Create a launch template for the EC2 instances
 resource "aws_launch_template" "swiggy-app-template" {
   name_prefix   = "swiggy-app-template"
-  image_id      = "ami-07a00cf47dbbc844c"
+  image_id      = "ami-04e44fc07a0954cc9"
   instance_type = "t3.micro"
   key_name      = "kubeadmm"
 
