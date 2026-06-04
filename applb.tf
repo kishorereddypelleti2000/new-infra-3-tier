@@ -11,7 +11,7 @@ resource "aws_lb" "external" {
 
 # Create a Target Group
 resource "aws_lb_target_group" "external-elb" {
-  name     = "external-tg"
+  name     = "external-tg-new"
   port     = 80
   protocol = "HTTP"
   vpc_id   = aws_vpc.swiggy-vpc.id
