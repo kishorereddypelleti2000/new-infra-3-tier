@@ -1,6 +1,6 @@
 ###### Create an EC2 Auto Scaling Group - web ######
 resource "aws_autoscaling_group" "swiggy-web-asg" {
-  name = "Kubeadmm"
+  name = "Key_name"
   launch_template {
     id      = aws_launch_template.swiggy-web-template.id
     version = "$Latest"
