@@ -1,6 +1,6 @@
 # Create an EC2 Auto Scaling Group - app
 resource "aws_autoscaling_group" "swiggy-app-asg" {
-  name = "Key_name"
+  name = "Key_name-2"
 
   launch_template {
     id      = aws_launch_template.swiggy-app-template.id
