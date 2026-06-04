@@ -1,6 +1,6 @@
 # Create a Load Balancer
 resource "aws_lb" "external" {
-  name               = "swiggy-lb"
+  name               = "swiggy-lb-new"
   internal           = false
   load_balancer_type = "application"
   security_groups    = [aws_security_group.swiggy-alb-sg-1.id]
